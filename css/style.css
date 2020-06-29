@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+body{
+  font-size: 2rem;
+}
+/*globales*/
+.container{
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+.img{
+  max-width: 100%;
+}
+.header{
+  background-image: url(../img/sqljoin.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main{
+  display: flex;
+}
+.btn{
+  padding: 5rem;
+  background-color: #121212;
+}
